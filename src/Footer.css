@@ -1,0 +1,39 @@
+.footer {
+  display: flex;
+  justify-content: space-evenly;
+  position: relative;
+  clear: both;
+  background-color: #232f3e;
+  color: white;
+  margin-top: 10px;
+  padding: 30px;
+}
+
+.footer__list {
+  font-size: 16px;
+  font-weight: 700;
+}
+
+.footer__list > ul {
+  font-size: 13px;
+  font-weight: 400;
+  list-style: none;
+  padding-left: 0;
+  margin-top: 10px;
+}
+
+.footer__list > ul > li {
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+  .footer {
+    flex-direction: column;
+    padding: 50px;
+  }
+
+  .footer__list {
+    margin-bottom: 30px;
+  }
+}
