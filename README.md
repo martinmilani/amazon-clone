@@ -12,7 +12,7 @@
 ​
 * 🛒 Cart and Checkout Page
 ​
-* 💳 REAL Payments (Stripe Credit Card Payments)
+* 💳 REAL Payments (Stripe Credit Card Payments, you must complete credit card info with "4242 4242 4242 4242" to simulate a payment)
 ​
 * 📝 Order History Page (Real time database)
 
